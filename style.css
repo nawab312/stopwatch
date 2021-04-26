@@ -33,3 +33,14 @@ button {
     display: inline;
     padding-left: 10px;
 }
+
+/* For mobile size 320*480 */
+@media screen and (max-width: 480px) {
+    #stopwatch {
+        font-size: 70px;
+        padding-bottom: 50px;
+    }
+    #buttons li {
+        margin: auto;
+    }
+}
